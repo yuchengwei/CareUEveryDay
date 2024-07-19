@@ -2,7 +2,7 @@ name: CareUEveryDay Cron CI
 
 on:
   schedule:
-    - cron: '*/2 * * * *'
+    - cron: '0 */1 * * *'
 
 jobs:
   build:
